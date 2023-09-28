@@ -1,5 +1,4 @@
 import 'dart:async';
-
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:webapp/custom_widgets.dart';
@@ -15,7 +14,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return const MaterialApp(
       title: 'Getlinked',
-      home: ContactsPage(),
+      home: MyHomePage(),
     );
   }
 }
@@ -481,4 +480,3 @@ Widget expos(bool isMobile, {required String text1, required String text2, requi
     ),
   );
 }
-

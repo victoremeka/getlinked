@@ -304,7 +304,7 @@ class _AnimatedSphereState extends State<AnimatedSphere> {
   double yPos = 0;
   double xFinal = 1;
   double yFinal = 0;
-  final int _speed = 1000;
+  final int _speed = 500;
 
   @override
   void initState(){
@@ -321,7 +321,6 @@ class _AnimatedSphereState extends State<AnimatedSphere> {
     }
     xPos += ((xFinal - xPos) / 10);
     yPos += ((yFinal - yPos) / 10);
-    print(xPos); print(yPos);
   }
 
 
@@ -410,7 +409,6 @@ class _ContactsPageState extends State<ContactsPage> {
                               "message" : _controller3.text,
                             })
                           );
-                          print(response.statusCode);
                         })
                       ],
                     ),
